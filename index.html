@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadanie rekrutacyjne</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="lib/lightbox/css/lightbox.min.css" />
+    <script src="lib/lightbox/js/lightbox-plus-jquery.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-------------------NAVBAR-------------------->
+
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#intro"><img src="images/giarddesign-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offer">Oferta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">O firmie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#album">Realizacje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="images/glass.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--------------------INTRO---------------------->
+
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 hidden">
+                    <h1 class="intro-text-1">Nowoczesna<br>
+                        aranżacja<br>
+                        Twojego ogrodu</h1>
+                    <p class="intro-text-2">Marka GiardDesign to wieloletnie doświadczenie i wysoka<br>
+                        estetyka realizacji. Oferujemy kompleksowy zakres usług<br>
+                        z indywidualnym podejściem do każdego projektu.</p>
+                    <button type="button" class="intro-button-1">Skontaktuj się z nami</button>
+                    <button type="button" class="intro-button-2">Zobacz nasze realizacje<img
+                            src="images/arrow-down.png"></button>
+                    <h1 class="intro-text-2"></h1>
+                </div>
+                <div class="col-md-6 hidden">
+                    <img class='img-fluid w-100' src="images/intro-photo.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------OFFER------------------------>
+
+    <section id="offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 hidden">
+                    <p class="offer-text-1">Oferta</p>
+                    <h1 class="offer-text-2">Działamy <span class="oblique">kompleksowo</span></h1>
+                    <p class="offer-text-3">Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
+                        nowoczesne ogrody
+                        przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy
+                        w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offer-cards">
+                    <div class="offer-card">
+                        <div class="offer-card-icon">
+                            <img src="images/pen-icon.png">
+                        </div>
+                        <h3>Projekty</h3>
+                        <p>
+                            Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
+                            wykorzystaniem istniejącej przestrzeni.
+                        </p>
+                        <p class="offer-learnmore">
+                            Dowiedz się więcej <img src="images/arrow-right.png">
+                        </p>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-card-icon">
+                            <img src="images/eye-icon.png">
+                        </div>
+                        <h3>Wizualizacje</h3>
+                        <p>
+                            Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego
+                            spaceru animowanego w technologii 3D.
+                        </p>
+                        <p class="offer-learnmore">
+                            Dowiedz się więcej <img src="images/arrow-right.png">
+                        </p>
+                    </div>
+                    <div class="offer-card">
+                        <div class="offer-card-icon">
+                            <img src="images/stars-icon.png">
+                        </div>
+                        <h3>Realizacje</h3>
+                        <p>
+                            Zrealizujemy Twoje marzenie przy użyciu najnowszych
+                            rozwiązań i zaawansowanych technologii.
+                        </p>
+                        <p class="offer-learnmore">
+                            Dowiedz się więcej <img src="images/arrow-right.png">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------ABOUT---------------------->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 hidden">
+                    <img class='img-fluid w-100' src="images/about-photo.png">
+                </div>
+                <div class="col-md-4 hidden">
+                    <p class="about-text-1">O firmie</p>
+                    <h1 class="about-text-2">Tworzymy<br>
+                        z <span class="oblique">pasją</span></h1>
+                    <p class="about-text-3">Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
+                        nowoczesne ogrody
+                        przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy
+                        w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem.</p>
+                    <button type="button" class="about-button-1">Poznaj nas bliżej<img
+                            src="images/arrow-right-white.png"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------ALBUM---------------------->
+
+    <section id="album">
+        <div class="container">
+            <div class="row">
+                <div class="col hidden">
+                    <p class="album-text-1">Realizacje</p>
+                    <h1 class="album-text-2">Nasze <span class="oblique">projekty</span></h1>
+                </div>
+            </div>
+        </div>
+        <div id="macy-container" class="hidden">
+            <div class="demo">
+                <a href="images/album-photo-1.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-1.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-2.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-2.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-3.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-3.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-4.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-4.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-5.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-5.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-6.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-6.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-7.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-7.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-8.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-8.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+            <div class="demo">
+                <a href="images/album-photo-9.png" data-lightbox="portfolio">
+                    <img src="images/album-photo-9.png" loading="lazy" class="demo-image ">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------CONTACT---------------------->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col hidden">
+                    <div class="contact-square">
+                        <div class="row">
+                            <div class="col-md-8 hidden">
+                                <h1 class="contact-text-1">Zostańmy w kontakcie!<br>
+                                    Znajdziesz nas na <span class="oblique">Instagramie</span></h1>
+                            </div>
+                            <div class="col-md-4 hidden">
+                                <p class="contact-text-2">Śledź nasze<br>
+                                    najnowsze realizacje!</p>
+                                <button type="button" class="contact-button-1">Instagram</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------FOOTER---------------------->
+
+    <footer class="main-footer light-text">
+        <div class="container">
+            <div class="row py-5 row-gap-2">
+                <div class="col-md-6 d-flex align-items-center">
+                    <img class="white-logo" src="images/giarddesign-white.png" alt="logo" />
+                </div>
+                <div class="col-md-6 d-flex flex-column flex-md-row gap-3 align-items-md-center justify-content-md-end">
+                    <p class="m-0">Daj znać, co możemy dla Ciebie zrobić!</p>
+                    <a href="#" class="footer-button">Skontaktuj się z nami</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <hr class="separation-line" />
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6">
+                    <nav class="navbar-expand-md">
+                        <ul class="navbar-nav column-gap-5">
+                            <li class="nav-item">
+                                Kontakt
+                            </li>
+                            <li class="nav-item">
+                                Instagram
+                            </li>
+                            <li class="nav-item">
+                                Facebook
+                            </li>
+                            <li class="nav-item">
+                                LinkedIn
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div
+                    class="col-lg-6 d-flex flex-column flex-lg-row column-gap-5 align-items-lg-center justify-content-lg-end">
+                    <a href="tel:000-000-000">000-000-000</a>
+                    <a href="mailto:giarddesign@kontakt.pl">giarddesign@kontakt.pl</a>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-6 mt-2">
+                    <span>Prawa zastrzeżone © 2022</span>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="d-flex column-gap-2 align-items-md-center justify-content-md-end">
+                        <span>made by</span>
+                        <a href="#">
+                            <img src="images/adRespect-logo.png" alt="adRespect logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--------------------SMOOTH SCROLL---------------------->
+
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+</body>
+
+</html>
